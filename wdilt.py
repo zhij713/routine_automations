@@ -98,7 +98,7 @@ class WDILT: #What Did I Learn Today: For recording daily learning nuggets and r
 
           
 def main():
-    json_credentials = "wdilt-375003-9e706b96ffb1.json"
+    json_credentials = "{{JSON_TOKEN}}"
     sheet_name = "WDILT"
 
     wdilt = WDILT(json_credentials,sheet_name)
